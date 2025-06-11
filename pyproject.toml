@@ -55,9 +55,10 @@ plugins = [
   "nomad-parser-plugins-atomistic>=1.0",
   "nomad-parser-plugins-workflow>=1.0",
   "nomad-parser-plugins-database>=1.0",
+  "plotsectiontest @ git+https://github.com/Bondoki/PlotSectionSchema.git@272ca0423b0c4d9af70250ad7bc4af05cd1e089b",
 ]
 jupyter = []
-dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.4"]
+dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.16"]
 
 [tool.uv]
 extra-index-url = [
