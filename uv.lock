@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10, <3.13"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -4842,16 +4842,15 @@ wheels = [
 
 [[package]]
 name = "pynxtools-spm"
-version = "0.1.2"
+version = "0.1.4"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "findiff" },
-    { name = "pint" },
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/af/f0/91c04cccf1feac6d1949a4f840e924614f0434c98e3745862fb64d964d14/pynxtools_spm-0.1.2.tar.gz", hash = "sha256:afb36da3fd84804128693fd682782a439cd70139c89dd549020eabc04b9cc0b7", size = 2219105, upload-time = "2025-05-22T19:06:25.791Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/50/10/17903fbd9d0204ffa77bcfab5202e135a8a5a58a01795ca922b0958f7b67/pynxtools_spm-0.1.4.tar.gz", hash = "sha256:ffa1c96607aaf96186dd91f7cf0713c56291b1a6a61988d435e900a009c8ffc0", size = 1624397, upload-time = "2025-08-04T08:31:55.564Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/83/77/08c7585651d083c50c42316253b3055729f980598d172950000087862054/pynxtools_spm-0.1.2-py3-none-any.whl", hash = "sha256:65b5c3a97f6f2c2cd63ac2d4cae18487d124301e5c23a99f72c656936e20e971", size = 2245629, upload-time = "2025-05-22T19:06:23.732Z" },
+    { url = "https://files.pythonhosted.org/packages/3a/ea/d422e1fb735ee9041c7f1acc66c5ffc6fd3a4865b781746d7ab57db97ab1/pynxtools_spm-0.1.4-py3-none-any.whl", hash = "sha256:d4d978c93ec2898d885ccd618ce7c5590cb55cadfb27c195f9f57707e50dfc9d", size = 1643150, upload-time = "2025-08-04T08:31:54.133Z" },
 ]
 
 [[package]]
